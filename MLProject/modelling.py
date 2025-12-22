@@ -168,6 +168,6 @@ run_id: null
     print("✅ SUKSES! Semua file (Wajib & Tambahan) sudah diupload.")
 
 # Bersihkan sampah lokal
-if os.path.exists(temp_folder): shutil.rmtree(temp_folder)
+#if os.path.exists(temp_folder): shutil.rmtree(temp_folder)
 for f in ["estimator.html", "metric_info.json", "confusion_matrix_tuning.png", "roc_curve.png"]:
     if os.path.exists(f): os.remove(f)
